@@ -50,6 +50,7 @@ Given that I tried out several different featurizers and observed the score repo
 
 ## Conclusion
 My fake news detection model helped with predicting whether a website is fake or real with 87% accuracy. 
+
 <img width="268" alt="Screen Shot 2023-07-16 at 3 19 22 AM" src="https://github.com/aashikavishwanath/fake-news-detection/assets/63748375/33f0fcca-7804-4bdf-a410-84c0e9e20888">
 
 As with any machine learning model, there are places for improving the score metrics even further, such as obtaining a larger dataset, developing more featurization approaches, etc. That said, my model seems to be a reasonable predictor for the trustworthiness of a website, and certainly
@@ -57,5 +58,5 @@ makes the task of vetting sources much easier and faster than manual labor.
 
 ## Dependencies
 - Python 3.9
-- Libraries: beautiful soup, pickle, 
+- Libraries: beautiful soup, pickle, bag-of-words, gloVe
 
